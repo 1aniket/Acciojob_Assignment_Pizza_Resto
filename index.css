@@ -1,0 +1,537 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header
+{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    overflow-x: hidden;
+    position:fixed !important;
+    overflow: hidden;
+  
+}
+.brand-logo{
+    display: flex;
+    letter-spacing: 6%;
+    font-family: "Ruda", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    
+    
+}
+.navigation
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+   
+    
+}
+.navigation-container
+{
+    display: flex;
+    gap: 30px;
+}
+.nav-links
+{
+    font-size: 1rem;
+    display: flex;
+    font-family: "Ruda", sans-serif;
+}
+.social-links
+{
+    
+    display: flex;
+    gap: 2rem;
+    
+}
+.social
+{
+    display: flex;
+    color: white;
+    
+}
+.home-page
+{
+    
+    height: 100%;
+    background-image:url("/images/pizza.png");
+    background-repeat:no-repeat; 
+    background-size:cover; 
+    background-position:center;
+    object-fit: fill;
+}
+.black-shadow
+{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(10,10,10,0.1) 0%, rgba(0,0,0,0.6 ) 60%);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.home-page_title
+{
+    color: white;
+    line-height: 5.5rem;
+    font-size: 3rem;
+    font-family: "Quattrocento", sans-serif;
+    width: 50%;
+    padding: 0.7rem 1.9rem;
+    margin-top: 8%;
+    font-weight: 700;
+
+}
+.home-page_title h1
+{
+    letter-spacing: 0.5rem;
+}
+.red-line
+{
+    background-color: #F24C4C;
+    height: 8px;
+    width: 400px;
+    margin: 10px 40px;
+}
+.home-page_desc
+{
+    color: white;
+    font-family: "Ruda", sans-serif;
+    font-weight: 400;
+    margin: 10px 40px;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    width: 40%;
+}
+.about-page
+{
+    width: 100vw;
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+
+   
+}
+
+
+.underline-red
+{
+    margin-top: 10px;
+    display: flex;
+    background-color:#B62828;
+    width: 20%;
+    height:5px; 
+   
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.about-page
+{
+    background-color: black;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:2rem;
+}
+.about-page_title, .menu-page_title, .carousel-page_title, .gallery-page_title, .findus-page_title
+{
+    font-family: "Quattrocento", sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+
+}
+.underline-red
+{
+    display: flex;
+    background-color: #B62828;
+    height: 0.5rem;
+    width: 15%;
+}
+.about-page_desc
+{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-top: 5%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5% ;
+}
+.desc_line
+{
+    display: flex;
+    background-color:#F24C4C;
+    width: 50%;
+    height: 0.15rem;
+    margin-bottom: 5%;
+    
+}
+.about-page_desc_text
+{
+   
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height: 100%;
+    font-family: "Ruda", sans-serif;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;
+    justify-content: center;
+    
+    
+}
+.about-page_desc_text p
+{
+    font-size: 1rem;
+}
+.about-page_desc_img
+{
+    display: flex;
+    justify-content: end;
+    
+
+}
+.about-page_desc_img img
+{
+    width: 70%;
+}
+
+
+/* MENU PAGE DESIGN */
+.menu-page
+{
+    display:flex ;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    align-items: center;
+    
+}
+.menu-page_desc
+{
+    margin-top: 3%;
+    width: 70%;
+    display: flex;
+    font-family: "Ruda", sans-serif;
+    font-size: 1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;
+}
+.menu-items
+{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5% 5%;
+    
+}
+.item
+{
+
+    width:45%;
+    height:20%;
+    display:flex;
+    margin:2%  1%;
+    justify-content:center;
+    align-items: center;
+    padding: 0 2%;
+}
+.item-img
+{
+    width: 100%;
+    height: 80%;
+    border-radius: 0.5rem ;
+    overflow: hidden;
+    display: flex;
+}
+.item-img img
+{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.item-text
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Ruda", sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+    padding: 0 2%;
+    
+}
+.item-heading
+{
+    color: yellow;
+    font-weight: 700;
+}
+.item-desc
+{
+    font-family: "Ruda", sans-serif;
+    font-size:1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;
+}
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.carousel-container
+{
+    margin-top:2% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1%;
+
+}
+.slide-left, .slide-right
+{
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-left img, .slide-right img
+{
+    width: 40%;
+}
+.image-slider
+{
+    width: 60%;
+    height: 90%;
+    
+}
+.image-slider img
+{
+    width: 100%;
+    height:100% ;
+}
+.counter{
+
+    margin: 1% 0;
+    display: flex;
+    gap: 20px;
+}
+.counter div img
+{
+    width: 50%;
+}
+.gallery
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+   
+}
+.galley-container
+{
+    margin-top: 5%;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 5%;
+    border-radius: 5%;
+}
+.row-1
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+
+}
+.row-1 img
+{
+    display: flex;
+    margin:0 2%;
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+}
+
+.row-2
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+   
+   
+
+}
+.row-2 img
+{
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+    width: 100%;
+    height: 33%;
+    object-fit:cover;
+}
+.row-3
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    overflow: hidden;
+
+}
+.row-3 img
+{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin:2%;
+    object-fit:cover;
+}
+
+.findus
+{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: "Ruda", sans-serif;
+    
+}
+.address_container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20%;
+    padding: 0 10%;
+}
+.contact
+{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.contact p
+{
+    font-family: "Ruda", sans-serif;
+    font-size:1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;
+}
+.cell{
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+.loc
+{
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    gap:5%;
+}
+
+.map
+{
+    width: 25%;
+    height: 100%;
+    background-image: url("/images/image 4.png"); 
+    background-size: fill; 
+    background-position: top left;
+
+}
+
+.footer
+{
+    border-top: 1px solid gray;
+    margin-top: 5%;
+    padding:0 10%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Ruda", sans-serif;
+    font-size:1rem;
+    line-height: 1.9rem;
+    letter-spacing: 0.15rem;   
+    align-items: center; 
+}
+.footer-cell
+{
+    display: flex;
+    align-items: center;
+    gap:10%;
+}
+
